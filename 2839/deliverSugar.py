@@ -1,5 +1,5 @@
 # BACKJOON Online Judge #2839
-
+"""
 import sys
 
 def func():
@@ -53,4 +53,3 @@ for i in range(0, N, 3):
             result = N // 3
 
 print (result)
-"""
