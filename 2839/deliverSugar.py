@@ -6,6 +6,8 @@ def func():
     for i in range(0, 5001, 3):
         # if i % 3 != 0:
         #    continue
+        if i > N:
+            return -1
         for j in range(0,5001, 5):
             # if j % 5 != 0:
             #    continue
@@ -44,9 +46,11 @@ for i in range(0, N, 3):
     temp = N - i
     if temp % 5 == 0:
         result = (temp//5 + i//3)
-    break
+        break
+
     if result == -1:
         if N % 3 == 0:
             result = N // 3
+
 print (result)
 """
