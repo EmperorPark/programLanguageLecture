@@ -4,7 +4,7 @@ import sys
 week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
 
 # f = sys.stdin
-f = open('Week8/data.txt', 'r')
+f = open('Week8/1924/data.txt', 'r')
 
 M, D = map(int, f.readline().split())
 
